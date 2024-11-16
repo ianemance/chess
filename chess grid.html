@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Chessboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #043d29;
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 4vmin;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            margin-bottom: 0.5vmin;
+        }
+
+        .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            width: 80vmin;
+            height: 80vmin;
+            margin: auto;
+            margin-bottom: 5vmin;
+            border: 0.4vmin solid white;
+            font-size: 5vmin;
+        }
+
+        .square {
+            display: grid;
+            place-items: center;
+        }
+
+        .black {
+            background-color: white;
+        }
+
+        .white {
+            background-color: #707070;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iane's Grid Chessboard</h1>
+    <div class="chessboard">
+        <div class="black square">&#9814;</div>
+        <div class="white square">&#9816;</div>
+        <div class="black square">&#9815;</div>
+        <div class="white square">&#9812;</div>
+        <div class="black square">&#9813;</div>
+        <div class="white square">&#9815;</div>
+        <div class="black square">&#9816;</div>
+        <div class="white square">&#9814;</div>
+
+        <div class="white square">	&#9817;</div>
+        <div class="black square">	&#9817;</div>
+        <div class="white square">	&#9817;</div>
+        <div class="black square">	&#9817;</div>
+        <div class="white square">	&#9817;</div>
+        <div class="black square">	&#9817;</div>
+        <div class="white square">	&#9817;</div>
+        <div class="black square">	&#9817;</div>
+
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+        <div class="white square"></div>
+        <div class="black square"></div>
+
+        <div class="black square">&#9823;</div>
+        <div class="white square">&#9823;</div>
+        <div class="black square">&#9823;</div>
+        <div class="white square">&#9823;</div>
+        <div class="black square">&#9823;</div>
+        <div class="white square">&#9823;</div>
+        <div class="black square">&#9823;</div>
+        <div class="white square">&#9823;</div>
+        
+        <div class="white square">&#9820;</div>
+        <div class="black square">&#9822;</div>
+        <div class="white square">&#9821;</div>
+        <div class="black square">&#9818;</div>
+        <div class="white square">&#9819;</div>
+        <div class="black square">&#9821;</div>
+        <div class="white square">&#9822;</div>
+        <div class="black square">&#9820;</div>
+    </div>
+</body>
+</html>
